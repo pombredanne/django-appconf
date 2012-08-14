@@ -12,5 +12,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.auth',
     'django.contrib.admin',
-    'tests.testapp',
+    'appconf.tests',
 ]
+
+TEST_RUNNER = 'discover_runner.DiscoverRunner'
